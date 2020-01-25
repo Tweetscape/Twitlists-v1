@@ -4,12 +4,7 @@ A script to identify the most retweeted tweets from curated user lists
 import tweepy
 import pandas as pd
 import json
-
-# Connect to Twitter API
-
-auth = tweepy.OAuthHandler("*****", "*****" )
-auth.set_access_token("*****", "*****")
-api = tweepy.API(auth)
+import config
 
 # Store tweet timelines from list members as a dictionary of "ResultSet" objects
 
@@ -66,7 +61,9 @@ def make_list(listname, textfile):
                                  'combo': (int(retweet_count) + int(favorite_count)),
                                  'user_name': str(user_name),
                                  'created_at': str(created_at)
-                                })  
+                                }) 
+
+ 
 
 make_list(gaming_list, 'tweet_json_gaming.txt'), make_list(gurus_list, 'tweet_json_gurus.txt'), make_list(eth_list, 'tweet_json_eth.txt'), make_list(econ_list, 'tweet_json_econ.txt'),
 make_list(ai_list, 'tweet_json_ai.txt'), make_list(btc_list, 'tweet_json_btc.txt'), make_list(space_list, 'tweet_json_space.txt'), make_list(systems_list, 'tweet_json_systems.txt')
@@ -80,6 +77,5 @@ def make_DF(listname):
     return listname
 
 eth_df, gaming_df, gurus_df, econ_df, ai_df, btc_df, space_df, systems_df = make_DF(eth_list), make_DF(gaming_list), make_DF(gurus_list), make_DF(econ_list), make_DF(ai_list), make_DF(btc_list), make_DF(space_list), make_DF(systems_list)
-
 eth_df.to_excel("ethexcel.xlsx"), gaming_df.to_excel("gamingexcel.xlsx"), gurus_df.to_excel("gurusexcel.xlsx"), econ_df.to_excel("econexcel.xlsx"),
 ai_df.to_excel("aiexcel.xlsx"), btc_df.to_excel("btcxcel.xlsx"), space_df.to_excel("spaceexcel.xlsx"), systems_df.to_excel("systemsexcel.xlsx")
