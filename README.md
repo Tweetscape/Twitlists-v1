@@ -5,7 +5,7 @@ A set of scripts for identifying the most popular tweets from curated Twitter li
 
 ## **Set Up**
 
-Setting of the project is easy. Just run the following commands in your terminal/command prompt.
+Setting up the project is easy. Just run the following commands in your terminal/command prompt.
 
 1. `git pull https://github.com/Superlists/twitterlists.git`
 
