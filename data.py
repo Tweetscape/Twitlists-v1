@@ -11,7 +11,7 @@ import config
 the_lists =  {"gaming" : "Blockchain-gaming", "gurus": "Cryptogurus", "eth" : "ETH", "econ" : "Economics", "ai": "AI", "btc" :  "Bitcoin", "space" :  "Space", "systems" : "Systems"}
 
 for slug in the_lists.keys():
-    the_lists[slug] = api.list_timeline(screen_name='@shingaithornton', slug = the_lists[slug], owner_screen_name='@shingaithornton', include_rts = 'false', count = 5000)
+    the_lists[slug] = config.api.list_timeline(screen_name='@shingaithornton', slug = the_lists[slug], owner_screen_name='@shingaithornton', include_rts = 'false', count = 5000)
     
 # Isolate json of tweepy "status" objects, add them into a list of dictionaries
 
