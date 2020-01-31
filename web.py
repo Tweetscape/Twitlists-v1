@@ -2,9 +2,14 @@
 
 
 from flask import render_template
-from flask import Flask
+from flask import Flask, jsonify
 import pandas as pd
+
 app = Flask(__name__)
+
+@app.route("/api")
+def get_api():
+    """ Have not written api code yet ---> return jsonify( ... ) """
 
 @app.route("/web")
 def show_tables():
