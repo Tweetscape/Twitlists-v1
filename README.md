@@ -1,6 +1,6 @@
 # Superlists
 
-A set of scripts for identifying the most popular tweets from curated Twitter lists and displaying them in a Flask web appplication.
+A set of scripts for identifying the most popular tweets from curated Twitter lists and displaying them in a Flask web application.
 
 
 ## **Set Up**
