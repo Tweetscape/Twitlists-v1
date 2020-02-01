@@ -3,6 +3,7 @@
 import os
 from flask import render_template
 from flask import Flask, jsonify
+from api import GetJSON
 import pandas as pd
 
 app = Flask(__name__)
@@ -10,6 +11,7 @@ app = Flask(__name__)
 @app.route("/api")
 def get_api():
     """ Have not written api code yet ---> return jsonify( ... ) """
+    return jsonify(GetJSON().get_data())
 
 @app.route("/web")
 def show_tables():
@@ -66,4 +68,4 @@ if __name__ == "__main__":
     app.run(debug=True)
     # In order to run the following line, put together a bash file with a 'rm *.<file_type>'.
     # Be sure the right permissions are set up for it --> chmod 755 <file_name>.sh
-    # os.system("./remove_files.sh")
+    os.system("./remove_files.sh")
