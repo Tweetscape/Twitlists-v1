@@ -12,7 +12,7 @@ app = Flask(__name__)
 def get_api():
     return jsonify(GetJSON().get_data())
 
-@app.route("/web")
+@app.route("/")
 def show_tables():
     eth = pd.read_excel('ethexcel.xlsx', header=0, delim_whitespace=True)
     gaming = pd.read_excel('gamingexcel.xlsx', header=0, delim_whitespace=True)
