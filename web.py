@@ -64,4 +64,6 @@ def show_tables():
 if __name__ == "__main__":
     os.system("python data.py")
     app.run(debug=True)
-    os.system("./remove_files.sh")
+    # In order to run the following line, put together a bash file with a 'rm *.<file_type>'.
+    # Be sure the right permissions are set up for it --> chmod 755 <file_name>.sh
+    # os.system("./remove_files.sh")
