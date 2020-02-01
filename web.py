@@ -1,6 +1,6 @@
 "After using data.py to generate dataframes, use this to display them in a web broswer"
 
-
+import os
 from flask import render_template
 from flask import Flask, jsonify
 import pandas as pd
@@ -62,4 +62,6 @@ def show_tables():
   
 
 if __name__ == "__main__":
+    os.system("python data.py")
     app.run(debug=True)
+    os.system("./remove_files.sh")
