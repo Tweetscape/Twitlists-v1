@@ -1,14 +1,12 @@
 """ 
 A script to identify the most retweeted tweets from curated user lists
 """
-import tweepy
-import os
 import pandas as pd
 import json
 import config
 
 """
-# Grab  data from twitter and dump to json and text files.
+# Grab  data from twitter and dump to text files.
 """
 
 class GetData(object):
@@ -22,8 +20,6 @@ class GetData(object):
             for each_json_tweet in each_list:
                 if each_list == config.the_lists[listname]:
                     listcollection.append(each_json_tweet._json)
-
-        return listcollection
 
 
     def make_txt(self, listname, tweets):
