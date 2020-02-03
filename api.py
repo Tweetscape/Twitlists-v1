@@ -28,6 +28,7 @@ class GetJSON(object):
         return lst1 + lst2 + lst3 + lst4 + lst5 + lst6 + lst7 + lst8
 
 
+
     def make_json(self):
         return json.dumps(self.combine_lsts(self.get_tweets('gaming', config.gaming_tweets),
                           self.get_tweets('gurus', config.gurus_tweets),
@@ -56,12 +57,14 @@ class GetJSON(object):
                 url = 'none'
 
             get_api_data.append({
-                'text': str(text),
-                'retweet_count': int(retweet_count),
-                'url': str(url),
-                'combo': (int(retweet_count) + int(favorite_count)),
-                'username': str(username),
-                'created_at': str(created_at)
-                })
+                'twitter data': {
+                    'text': str(text),
+                    'retweet_count': int(retweet_count),
+                    'url': str(url),
+                    'combo': (int(retweet_count) + int(favorite_count)),
+                    'username': str(username),
+                    'created_at': str(created_at)
+                }
+            })
 
         return get_api_data
