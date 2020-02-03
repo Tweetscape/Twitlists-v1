@@ -17,4 +17,4 @@ Setting up the project is easy. Just run the following commands in your terminal
 
 5. `python web.py`
 
-6.  Go to https://120.0.0.1:5000/web in your browser.
+6.  Go to https://120.0.0.1:5000/ in your browser.
