@@ -1,6 +1,6 @@
 # Twitlists
 
-A locally hosted web application that identifies the most popular tweets from my Twitter lists and displays them in a Flask web application.
+A locally hosted web application that identifies the most popular tweets from a set of my personal Twitter lists and displays them in a Flask web application.
 
 
 ## **Set Up**
@@ -19,4 +19,4 @@ To get started just run the following commands in your terminal/command prompt.
 
 6. `python web.py`
 
-7.  Go to https://120.0.0.1:5000/ in your browser.
+7.  Go to http://127.0.0.1:5000/  in your browser.
