@@ -9,7 +9,7 @@ Setting up the project is easy. Just run the following commands in your terminal
 
 1. `git clone https://github.com/Superlists/twitterlists.git` 
 
-2.`git pull https://github.com/Superlists/twitterlists.git`
+2. `git pull https://github.com/Superlists/twitterlists.git`
 
 3. `virtualenv -p python3 venv`
 	
