@@ -5,7 +5,7 @@ A locally hosted web application that identifies the most popular tweets from my
 
 ## **Set Up**
 
-Setting up the project is easy. Just run the following commands in your terminal/command prompt.
+To get started just run the following commands in your terminal/command prompt.
 
 1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
