@@ -9,14 +9,14 @@ To get started just run the following commands in your terminal/command prompt.
 
 1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
-2. `git pull https://github.com/Twitlists/Twitlists-v1`
+2. `cd Twitlists-v2`
 
-3. `virtualenv -p python3 venv`
+2. `virtualenv -p python3 venv`
 	
-4. `source venv/bin/activate`
+3. `source venv/bin/activate`
 
-5. `pip install -r requirements.txt`
+4. `pip install -r requirements.txt`
 
-6. `python web.py`
+5. `python web.py`
 
-7.  Go to http://127.0.0.1:5000/  in your browser.
+6.  Go to http://127.0.0.1:5000/  in your browser.
