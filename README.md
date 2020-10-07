@@ -7,7 +7,7 @@ A set of scripts for identifying the most popular tweets from curated Twitter li
 
 Setting up the project is easy. Just run the following commands in your terminal/command prompt.
 
-1. git clone 'https://github.com/Superlists/twitterlists.git` 
+1. `git clone https://github.com/Superlists/twitterlists.git` 
 
 2.`git pull https://github.com/Superlists/twitterlists.git`
 
