@@ -1,0 +1,6 @@
+__pycache__
+testing.py
+*.xlsx
+*.txt
+*.sh
+venv
