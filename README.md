@@ -1,6 +1,6 @@
 # Twitlists
 
-A set of scripts for identifying the most popular tweets from curated Twitter lists and displaying them in a Flask web application.
+A locally hosted web application that identifies the most popular tweets from my Twitter lists and displays them in a Flask web application.
 
 
 ## **Set Up**
