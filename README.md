@@ -7,6 +7,8 @@ A locally hosted web application that identifies the most popular tweets from a 
 
 To get started just run the following commands in your terminal/command prompt.
 
+0. Export keys (Instructions coming soon) 
+
 1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
 2. `cd Twitlists-v2`
