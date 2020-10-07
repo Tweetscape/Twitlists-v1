@@ -7,9 +7,9 @@ A locally hosted web application that identifies the most popular tweets from my
 
 Setting up the project is easy. Just run the following commands in your terminal/command prompt.
 
-1. `git clone https://github.com/Superlists/twitterlists.git` 
+1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
-2. `git pull https://github.com/Superlists/twitterlists.git`
+2. `git pull https://github.com/Twitlists/Twitlists-v1`
 
 3. `virtualenv -p python3 venv`
 	
