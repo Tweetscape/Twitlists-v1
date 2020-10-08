@@ -11,7 +11,7 @@ To get started just run the following commands in your terminal/command prompt.
 
 1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
-2. `cd Twitlists-v2`
+2. `cd Twitlists-v1`
 
 2. `virtualenv -p python3 venv`
 	
