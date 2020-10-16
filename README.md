@@ -5,9 +5,11 @@ A locally hosted web application that identifies the most popular tweets from a 
 
 ## **Set Up**
 
-To get started just run the following commands in your terminal/command prompt.
+First, you'll need to apply for a Twitter developer account here: https://developer.twitter.com/en/apply-for-access
 
-0. Export keys (Instructions coming soon) 
+Once you've done this, open the "APIKeys" text file,  edit it to include your credentials, and follow the instructions to store your keys and tokens as operating system environment variables. 
+
+To get started just run the following commands in your terminal/command prompt.
 
 1. `git clone https://github.com/Twitlists/Twitlists-v1` 
 
