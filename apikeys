@@ -1,0 +1,12 @@
+Enter the following commands into your terminal after inserting the required information from your
+Twitter developer account which can be set up here: https://developer.twitter.com/en
+Ask Shingai for keys/tokens if you’re having issues.
+
+export KEY=“insert Consumer API key”
+export SECRET=“insert Consumer API secret key”
+
+
+export TOKEN=“insert access token”
+export TOKEN_SECRET=“insert access secret”
+
+export APP_SECRET_KEY="twitlists"
