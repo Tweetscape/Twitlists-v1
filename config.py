@@ -1,3 +1,4 @@
+"""
 import os
 import tweepy
 
@@ -8,6 +9,21 @@ access_token_two = os.environ['TWO']
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token_one, access_token_two)
+api = tweepy.API(auth)
+"""
+
+import os, tweepy
+
+api_key = os.environ['KEY']
+api_secret = os.environ['SECRET']
+access_token = os.environ['TOKEN']
+access_token_secret = os.environ['TOKEN_SECRET']
+app_secret_key = os.environ['APP_SECRET_KEY']
+
+
+auth = tweepy.OAuthHandler(api_key, api_secret)
+auth.set_access_token(access_token, access_token_secret)
+
 api = tweepy.API(auth)
 
 
