@@ -24,3 +24,7 @@ To get started just run the following commands in your terminal/command prompt.
 5. `python web.py`
 
 6.  Go to http://127.0.0.1:5000/  in your browser.
+
+## **Screen Shots**
+
+
