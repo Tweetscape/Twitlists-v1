@@ -26,7 +26,7 @@ To get started just run the following commands in your terminal/command prompt.
 6.  Go to http://127.0.0.1:5000/  in your browser.
 
 ## **Screen Shots**
+![twitlists](https://user-images.githubusercontent.com/5001385/96349485-db7b5880-1064-11eb-8588-a09810959854.png)
 
-https://user-images.githubusercontent.com/5001385/96349485-db7b5880-1064-11eb-8588-a09810959854.png
 
 
